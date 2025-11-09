@@ -3,6 +3,11 @@
 QueueCTL is a CLI-based background job queue built in **Node.js**.  
 It supports persistent jobs, multiple worker processes, retries with exponential backoff, and a Dead Letter Queue (DLQ).
 
+---
+
+**Working CLI Demo** [Link](https://drive.google.com/file/d/1l7259F5B-uSzRnCnJUvHzAfOCsf8EzRt/view?usp=sharing)
+
+---
 ## Tech Stack
 
 - Node.js (CommonJS)

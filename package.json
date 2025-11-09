@@ -12,6 +12,6 @@
     "start-workers": "node queuectl.js worker start --count 2"
   },
   "dependencies": {
-    "better-sqlite3": "^9.0.0"
+    "better-sqlite3": "^9.6.0"
   }
 }
