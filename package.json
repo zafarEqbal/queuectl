@@ -1,0 +1,17 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue with workers, retries, and DLQ",
+  "main": "queuectl.js",
+  "type": "commonjs",
+  "bin": {
+    "queuectl": "./queuectl.js"
+  },
+  "scripts": {
+    "test-script": "node test_script.js",
+    "start-workers": "node queuectl.js worker start --count 2"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.0.0"
+  }
+}
